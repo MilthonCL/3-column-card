@@ -1,0 +1,120 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 0.9375rem;
+    background-color: hsl(0 0% 95%);
+    color: hsla(0 0% 100%);
+}
+
+.title {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: hsl(0 0% 95%);
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.paragraph {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 100%;
+    margin: 1.5rem 2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.panel {
+    padding: 1rem 3rem;
+}
+
+.panel img {
+    width: 6rem;
+    margin-top: 1rem;
+}
+
+.panel--sedan {
+    background-color: hsl(31 77% 52%);
+}
+
+.panel--suvs {
+    background-color: hsl(184 100% 22%);
+}
+
+.panel--luxury {
+    background-color: hsl(179 100% 13%);
+}
+
+.btn {
+    border-style: none;
+    border-radius: 30px;
+    width: 150px;
+    height: 60px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin: 2rem 0;
+}
+
+.btn--sedan {
+    color: hsl(31 77% 52%);
+}
+
+.btn--suvs {
+    color: hsl(184 100% 22%);
+}
+
+.btn--luxury {
+    color: hsl(179 100% 13%);
+}
+
+@media screen and (min-width: 769px) {
+    .main {
+        place-items: center;
+        margin: 4rem 16rem;
+    }
+
+    .container {
+        flex-direction: row;
+    }
+
+
+
+    .btn:hover {
+        color: #fff;
+        background-color: transparent;
+        border: 1px solid;
+    }
+
+
+}
+
+.attribution {
+    font-size: .9rem;
+    text-align: center;
+    margin: 2rem 0;
+    color: #333
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
