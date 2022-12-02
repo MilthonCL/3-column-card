@@ -43,24 +43,24 @@ body {
     overflow: hidden;
 }
 
-.panel {
+.card {
     padding: 1rem 3rem;
 }
 
-.panel img {
+.card img {
     width: 6rem;
     margin-top: 1rem;
 }
 
-.panel--sedan {
+.card--sedan {
     background-color: hsl(31 77% 52%);
 }
 
-.panel--suvs {
+.card--suvs {
     background-color: hsl(184 100% 22%);
 }
 
-.panel--luxury {
+.card--luxury {
     background-color: hsl(179 100% 13%);
 }
 
